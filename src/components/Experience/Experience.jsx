@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./Experience.module.css";
 import skills from "../../data/skills.json";
-import history from "../../data/history.json";
+// import history from "../../data/history.json";
 
 
 export const Experience = () => {
@@ -15,7 +15,7 @@ export const Experience = () => {
             return (
               <div key={id} className={styles.skill}>
                 <div className={styles.skillImageContainer}>
-                  <img src={`../../../assets/${skill.imageSrc}`} alt={skill.title} />
+                  <img src={`assets/skills/${skill.imageSrc}`} alt={skill.title} />
                 </div>
                 <p>{skill.title}</p>
               </div>

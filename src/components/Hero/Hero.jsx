@@ -1,4 +1,5 @@
 import React from "react";
+import heroImg from "/assets/hero/heroImage.png"
 
 import styles from "./Hero.module.css";
 
@@ -15,7 +16,7 @@ export const Hero = () => {
         </a>
       </div>
       <img
-        src={`../../../assets/hero/heroImage.png`}
+        src={heroImg}
         alt="Hero image of me"
         className={styles.heroImg}
       />

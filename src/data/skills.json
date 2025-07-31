@@ -1,38 +1,40 @@
+
+
 [
     {
       "title": "Java",
-      "imageSrc": "skills/java.png"
+      "imageSrc": "java.png"
     },
     {
       "title": "Golang",
-      "imageSrc": "skills/golang.png"
+      "imageSrc": "golang.png"
     },
     {
       "title": "JavaScript",
-      "imageSrc": "skills/javascript.png"
+      "imageSrc": "javascript.png"
     },
     {
       "title": "Spring",
-      "imageSrc": "skills/spring.png"
+      "imageSrc": "spring.png"
     },
     {
       "title": "React",
-      "imageSrc": "skills/react.png"
+      "imageSrc": "react.png"
     },
     {
       "title": "Mysql",
-      "imageSrc": "skills/mysql.png"
+      "imageSrc": "mysql.png"
     },
     {
       "title": "MongoDB",
-      "imageSrc": "skills/mongodb.png"
+      "imageSrc": "mongodb.png"
     },
     {
       "title": "Redis",
-      "imageSrc": "skills/redis.png"
+      "imageSrc": "redis.png"
     },
     {
       "title": "Docker",
-      "imageSrc": "skills/docker.png"
+      "imageSrc": "docker.png"
     }
   ]

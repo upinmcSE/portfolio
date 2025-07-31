@@ -2,14 +2,15 @@ import React from "react";
 
 import styles from "./ProjectCard.module.css";
 
+import projectImg from "/assets/projects/project.png"
 
 export const ProjectCard = ({
-  project: { title, imageSrc, description, skills, demo, source },
+  project: { title, description, skills, source },
 }) => {
   return (
     <div className={styles.container}>
       <img
-        src={`../../../assets/${imageSrc}`}
+        src={projectImg}
         alt={`Image of ${title}`}
         className={styles.image}
       />
@@ -25,7 +26,7 @@ export const ProjectCard = ({
         })}
       </ul>
       <div className={styles.links}>
-        <a href={source} className={styles.link}>
+        <a href={source} target="_blank" rel="noopener noreferrer" className={styles.link}>
           Source
         </a>
       </div>
