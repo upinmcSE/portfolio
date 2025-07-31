@@ -1,0 +1,24 @@
+[
+    {
+      "title": "Insta",
+      "imageSrc": "projects/project.png",
+      "description": "Build a Social Network simple",
+      "skills": ["Spring boot", "ReactJS", "MySQL", "Redis", "WebSocket", "RabbitMQ"],
+      "source": "https://github.com/upinmcSE/Insta"
+    },
+    {
+      "title": "Redis Go",
+      "imageSrc": "projects/project.png",
+      "description": "Implement multi-threaded Redis from scratch (with Golang)",
+      "skills": ["Golang"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/upinmcSE/Godis"
+    },
+    {
+      "title": "Gober",
+      "imageSrc": "projects/project.png",
+      "description": "Build a Ticket System",
+      "skills": ["Golang", "Gin", "GRPC", "React Native", "MySQL", "Redis", "RabbitMQ"],
+      "source": "https://github.com/upinmcSE/Gober"
+    }
+  ]
